@@ -1,0 +1,32 @@
+:root {
+    --vermelho:#E50914;
+    --preta: #141414;
+    --voec:#D9843B; 
+    --voesc:#926f5b;
+    --vo01:#261008;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}  
+
+
+body {
+    background: var(--vo01);
+    color: white;
+}
+
+
+.filme {
+    height: 100vh;
+    margin:0 auto;
+
+    display:block;
+    align-items: center;
+
+}
+
+.container  .filme {
+    align-content: center;
+}

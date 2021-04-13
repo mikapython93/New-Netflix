@@ -1,0 +1,130 @@
+:root {
+    --vermelho:#E50914;
+    --preta: #141414;
+    --voec:#D9843B; 
+    --voesc:#926f5b;
+    --vo01:#261008;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+/*elementos base*/
+
+body {
+    background: var(--vo01);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-between;
+}
+  
+header .logo {
+    margin-left: 5px;
+    color : var(--voec);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #000;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--voec);
+    margin-right: 10px;
+    font-size: 20px ;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5) 100%), url('../img/relatos-do-mundo-capa.png');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme {
+    height: 500px;
+    justify-content: center;
+
+    }
+
+.filme-principal .titulo {
+    margin-top: 300px;
+}
+.filme-principal .descricao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: var(--voesc);    
+    border: none;
+    color: black;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color:rgb(187,148,134);
+    color:white;
+}
+
+.botao i{
+    margin-right:5px ;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.muda-pagina {
+    color: black;
+    text-decoration: none;
+}
